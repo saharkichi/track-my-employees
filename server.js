@@ -60,6 +60,7 @@ function init() {
 
 
 //call functions after selected options from tables
+//use all acceptance critera required questions and selections
 function viewDepartments() {
     connection.query(`SELECT * FROM departments`, function (err, res) {
       if (err) throw err;
