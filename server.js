@@ -108,6 +108,7 @@ function viewDepartments() {
   }
   
 
+  
 //functions for add role
   function addRole() {
     connection.query("SELECT * FROM departments", function (err, res) {
