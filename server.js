@@ -30,7 +30,7 @@ function init() {
           ]
         }])
 
-// add breaks to start new lines, create choices for user
+// add breaks to initiate new lines, create choices for user
         .then(function (response) {
             switch (response.choice) {
               case "View all departments":
