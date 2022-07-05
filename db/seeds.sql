@@ -1,8 +1,6 @@
 USE employeeTracker_DB;
 
-
 /* necessary departments as per acceptance criteria */
-
 INSERT INTO departments (name)
 VALUES ("Sales");
 
